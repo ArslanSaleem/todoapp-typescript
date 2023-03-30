@@ -1,0 +1,27 @@
+.checkBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+span.list_checked {
+    background-color: #2ad05d;
+}
+
+.fa-check {
+    color: white;
+}
+
+.list_item_1 span {
+    height: 25px;
+    width: 25px;
+    border: 1px solid #c1ccd3;
+    border-radius: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+    margin-right: 6px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
